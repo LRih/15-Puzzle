@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ====================================================================== MISC -->
+    <string name="app_name">15 Puzzle</string>
+
+    <!-- ====================================================================== SAVE -->
+    <string name="save_best">saveBest</string>
+
+    <!-- ====================================================================== GAME -->
+    <string name="about">About</string>
+    <string name="current">Current: %s</string>
+    <string name="best">Best: %s</string>
+    <string name="scramble">Scramble</string>
+</resources>
