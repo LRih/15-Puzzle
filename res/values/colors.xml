@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="background">#eee</color>
+
     <color name="text">#000</color>
     <color name="text_pressed">#fff</color>
+
     <color name="button">#fff</color>
     <color name="button_pressed">#add9d9</color>
     <color name="border">#aaa</color>
     <color name="border_pressed">#85a6a6</color>
-    <color name="background">#eee</color>
 </resources>
