@@ -99,7 +99,7 @@ public final class GameActivity extends Activity
     {
         if (item.getItemId() == R.id.menuAbout)
         {
-            AboutDialog.Show(this, R.drawable.icon, getString(R.string.app_name), "15 Puzzle by Richard Liu");
+            AboutDialog.Show(this, R.drawable.icon, getString(R.string.app_name), "15 Puzzle by Richard L");
             return true;
         }
         else
