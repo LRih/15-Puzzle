@@ -1,4 +1,4 @@
 # 15-Puzzle
 Basic 15 puzzle for Android.
 
-![Image](https://github.com/LRih/15-Puzzle/blob/master/images/image1.png)
+<img src="https://github.com/LRih/Images/blob/master/15-Puzzle-1.png" alt="Image 1" width="186px"/>
