@@ -108,21 +108,22 @@ public final class GameView extends SurfaceView
 
     public final boolean onTouchEvent(MotionEvent event)
     {
-        if (event.getAction() == MotionEvent.ACTION_DOWN)
+        if (event.getActionMasked() == MotionEvent.ACTION_DOWN)
         {
             float size = boardSize();
             float startX = (getWidth() - size) / 2;
             float startY = (getHeight() - size) / 2;
             float squareSize = size / GRID_SIZE;
+
             if (event.getX() >= startX && event.getX() < startX + size && event.getY() >= startY && event.getY() < startY + size)
             {
                 int x = (int)((event.getX() - startX) / squareSize);
                 int y = (int)((event.getY() - startY) / squareSize);
                 click(x, y);
             }
-            return true;
         }
-        return super.onTouchEvent(event);
+
+        return true;
     }
 
     protected final Parcelable onSaveInstanceState()
